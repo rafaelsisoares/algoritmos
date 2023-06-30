@@ -12,7 +12,3 @@ def find_duplicate(nums):
         else:
             checked_nums.add(num)
     return False
-
-
-if __name__ == "__main__":
-    print(find_duplicate([3, 1, 2, 4, 6, 5, 7, 7, 7, 8]))
